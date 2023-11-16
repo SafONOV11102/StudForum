@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+:root
+{
+  --background-window: #1F2227;
+  --background-block: #282A34;
+  --color-green: #2CC17B;
+}
+
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("fonts/SourceSansPro-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("fonts/SourceSansPro-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("fonts/SourceSansPro-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+.nunito
+{
+  font-family: 'Nunito', sans-serif;
+}
+
+body
+{
+  background-color: var(--background-window);
+  color: #d9d9d9;
+  font-size: 16px;
+  font-family: "SourceSansPro", sans-serif;
+  font-weight: 400;
+}
+
+#root
+{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.content
+{
+  flex-grow: 1 !important;
+  margin-bottom: 5rem;
+}
+
+.input-dark,
+.input-dark:active,
+.input-dark:focus
+{
+  background-color: #3A3C49;
+  border: none;
+  padding: 1rem;
+  font-size: 16px;
+  color: #d9d9d9;
+  box-shadow: none;
+}
+
+.input-dark::placeholder
+{
+  color: #737D88;
+}
+
+.btn-green,
+.btn-green:focus
+{
+  background-color: var(--color-green) !important;
+  color: white;
+  border-radius: 0%;
+  border: none;
+}
+
+.btn-green:hover
+{
+  background-color: #269662 !important;
+}
+
+.btn-green:active
+{
+  background-color: #06bf69 !important;
+}
+
+.text-green
+{
+  color: var(--color-green);
+}
+
+.btn-big
+{
+    padding: 1rem;
+  font-size: 20px;
+  font-family: "SourceSansPro", sans-serif;
+  font-weight: 600;
+}
+
+.circle
+{
+  border-radius: 10em;
+}
+
+.btn-profile
+{
+  overflow: hidden;
+}
+
+.bg-transparent,
+.bg-transparent:hover,
+.bg-transparent:active
+{
+  background-color: transparent !important;
+}
+
+.dropdown-item:hover,
+.dropdown-item:active
+{
+  background-color: var(--color-green);
+}
+
+.br-0
+{
+  border-radius: 0 !important;
+}
+
+.text-green-hover:hover
+{
+  color: var(--color-green) !important;
+}
+
+.text-bloom
+{
+  color: #bbbbbb !important;
+  transition: all .5s 0s;
+}
+
+.text-bloom:hover
+{
+  color: #fff !important;
+}
+
+.bg-block
+{
+  background-color: var(--background-block);
+}

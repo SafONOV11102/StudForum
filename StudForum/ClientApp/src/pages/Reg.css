@@ -1,0 +1,14 @@
+.form-auth
+{
+    min-width: 220px;
+    max-width: 520px;
+    width: 100%;
+    background: var(--background-block);
+}
+
+.title-nunito
+{
+    font-family: "Nunito", sans-serif;
+    font-size: 32px;
+}
+
